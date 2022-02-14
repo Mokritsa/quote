@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotes generator</title>
+  <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="switch-lng">
+      <div class="lng" data-namelng="en" id="en">EN</div>
+      <div>/</div>
+      <div class="lng is-active" data-namelng="ru" id="ru">RU</div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="quote-area">
+      <p class="content"></p>
+      <p class="author"></p>
+    </div>
+    <button class="quote-button">Генератор цитат</button>
+  </main>
+  <footer class="footer">
+    <div class="footer-data">
+      <span>©</span>
+      <span>2022</span>
+      <a class="link" href="https://github.com/Mokritsa" target="_blank">mokritsa</a>
+    </div>
+      <a class="link rss-link" href="https://rs.school/js-stage0/" target="_blank"></a>
+  </footer>
+  <script src="index.js"></script>
+  <script src="quotes.json"></script>
+</body>
+</html>
