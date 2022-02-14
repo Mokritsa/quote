@@ -11,6 +11,7 @@ html {
   background-color: var(--mainBlack);
 }
 .header {
+  margin: 0 auto;
   padding: 10px;
   max-width: 1400px;
 }
@@ -32,6 +33,7 @@ html {
   color: var(--mainOrange);
 }
 .main{
+  margin: 0 auto;
   max-width: 1400px;
   display: flex;
   padding: 10px;
@@ -54,7 +56,7 @@ html {
 .quote-button{
   width: 150px;
   height: 100px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   border-radius: 10%;
   font-size: 17px;
   background-color: var(--mainOrange);
@@ -62,7 +64,7 @@ html {
 }
 .footer{
   padding: 10px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 1440px;
   display: flex;
   flex-wrap: wrap;
